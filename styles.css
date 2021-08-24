@@ -1,0 +1,51 @@
+body{
+	display: flex;
+	flex-wrap: wrap;
+	min-height: 100vh;
+	text-align: center;
+	background: linear-gradient(140deg, #e10895, #10941b, #c6a90a);
+	background-size: 200% 1000%;
+	
+	-webkit-animation: AnimationName 31s ease infinite;
+	-moz-animation: AnimationName 31s ease infinite;
+	-o-animation: AnimationName 31s ease infinite;
+	animation: AnimationName 31s ease infinite;
+}
+
+h1{
+	color: blue;
+}
+
+section{
+	color: red;
+	font-size: 2em;
+}
+
+.footer{
+align-self: flex-end;
+width: 100%;
+background-color: orange;
+}
+
+
+
+@-webkit-keyframes AnimationName {
+	0%{background-position  :0% 9%}
+	50%{background-position :100% 92%}
+	100%{background-position:0% 9%}
+}
+@-moz-keyframes AnimationName {
+	0%{background-position  :0% 9%}
+	50%{background-position :100% 92%}
+	100%{background-position:0% 9%}
+}
+@-o-keyframes AnimationName {
+	0%{background-position  :0% 9%}
+	50%{background-position :100% 92%}
+	100%{background-position:0% 9%}
+}
+@keyframes AnimationName { 
+	0%{background-position  :0% 9%}
+	50%{background-position :100% 92%}
+	100%{background-position:0% 9%}
+}
